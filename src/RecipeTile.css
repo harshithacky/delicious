@@ -1,0 +1,32 @@
+.recipeTile{
+    margin: 1rem 0;
+}
+
+.recipeTile:hover{
+    transform: scale(1.05);
+}
+
+.recipeTile__img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.recipeTile__name{
+    max-width: 200px;
+    margin: 8px auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+    margin-bottom: 1rem;
+    transition: all 0.3s;
+
+}
+a:hover{
+    transform: scale(1.05);
+
+}

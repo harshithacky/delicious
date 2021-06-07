@@ -1,38 +1,191 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 24px;
+  background-color: rgba(238, 231, 231, 0.425);
+}
+
+.app__searchForm{
+  margin-top: 18px;
+}
+
+.app__input{
+  padding: 6px 16px;
+  min-width: 200px;
+  max-width: 100vw;
+  font-size: 1rem;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #FFB03B;
+  outline: none;
+  color: #fff;
+}
+
+::placeholder{
+  color: #fff;
+}
+
+.app__submit{
+  padding: 6px 16px;
+  font-size: 15px;
+  margin-left: 6px;
+  background-color: #02aff0;
+  border: 2px solid #02aff0;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.app__submit:hover{
+  border: 2px solid #02aff0;
+  background-color: white;
+  color: #02aff0;
+  transform: scale(1.05);
+}
+
+.app__recipes{
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-gap: 50px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__healthLabels{
+  padding: 7px 8px;
+  margin-left: 6px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.header{
+  min-height: 96vh;
+  width: 100%;
+  background: url("./banner-bg.jpg") no-repeat center top;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header2{
+  min-height: 96vh;
+  width: 100%;
+  background: url("./indianfood.jpg") no-repeat center top;
+  background-size: cover;
+}
+
+.overlay{
+  min-height: 96vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+  margin-top: -10vh;
+}
+
+.logo, .footer__logo{
+  font-family: 'Satisfy', sans-serif;
+    font-size: 3.6rem;
+    color: #FFB03B;
+}
+
+
+.overlay h2{
+  font-family: 'Satisfy', sans-serif;
+    font-size: 2.3rem;
+    color: #FFB03B;
+}
+
+.overlay p{
+  font-family: 'PT Sans', sans-serif;
+    color: #fcfcfc;
+    font-size: 1.6rem;
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.footer {
+  width: 100%;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 27vh;
+  padding: 1rem 0;
+}
+
+.footer__para{
+  color: #999;
+    text-transform: none;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+
+.fa{
   color: white;
+  margin: 0 0.4rem;
+  font-size: 1.8rem;
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (max-width:1100px)
+{
+  .app__recipes{
+    grid-template-columns: 250px 250px 250px;
+  } 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width:870px)
+{
+
+  html{
+    font-size: 14px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .app__recipes{
+    grid-template-columns: 250px 250px;
+  } 
+
+  
+}
+
+@media only screen and (max-width:562px)
+{
+
+  html{
+    font-size: 10px;
+  }
+
+  .app__recipes{
+    grid-template-columns: 250px;
+  } 
+
+  .app__searchForm{
+    margin-top: 18px;
+    height: 35vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .app__healthLabels{
+    margin-left: 0px;
+    margin-top: 5px;
+
+  }
+
+  .app__submit{
+    margin-left: 0;
+    margin-top: 5px;
   }
 }

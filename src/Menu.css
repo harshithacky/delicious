@@ -1,0 +1,40 @@
+.menu{
+    height: 10vh;
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.menu h1{
+    font-family: 'Satisfy', sans-serif;
+    color: #FFB03B;
+    cursor: pointer;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    color: #fff;
+}
+
+.menu a{
+    color: #fff;
+}
+
+.menu a:hover{
+    
+    color: #FFB03B;
+}
+
+.menu li{
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.activenav{
+    color: #FFB03B!important;
+}
