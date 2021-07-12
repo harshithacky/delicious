@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/delicious/static/css/main.bc7ac99c.chunk.css",
+    "main.js": "/delicious/static/js/main.3584b9f7.chunk.js",
+    "main.js.map": "/delicious/static/js/main.3584b9f7.chunk.js.map",
+    "runtime-main.js": "/delicious/static/js/runtime-main.47ffd62c.js",
+    "runtime-main.js.map": "/delicious/static/js/runtime-main.47ffd62c.js.map",
+    "static/css/2.ae9e5f60.chunk.css": "/delicious/static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.311b303d.chunk.js": "/delicious/static/js/2.311b303d.chunk.js",
+    "static/js/2.311b303d.chunk.js.map": "/delicious/static/js/2.311b303d.chunk.js.map",
+    "static/js/3.35f55be2.chunk.js": "/delicious/static/js/3.35f55be2.chunk.js",
+    "static/js/3.35f55be2.chunk.js.map": "/delicious/static/js/3.35f55be2.chunk.js.map",
+    "index.html": "/delicious/index.html",
+    "static/css/2.ae9e5f60.chunk.css.map": "/delicious/static/css/2.ae9e5f60.chunk.css.map",
+    "static/css/main.bc7ac99c.chunk.css.map": "/delicious/static/css/main.bc7ac99c.chunk.css.map",
+    "static/js/2.311b303d.chunk.js.LICENSE.txt": "/delicious/static/js/2.311b303d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/delicious/static/media/indianfood.f18ea4cf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47ffd62c.js",
+    "static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.311b303d.chunk.js",
+    "static/css/main.bc7ac99c.chunk.css",
+    "static/js/main.3584b9f7.chunk.js"
+  ]
+}
